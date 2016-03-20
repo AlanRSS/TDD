@@ -123,7 +123,7 @@ $(function() {
             }));
         });
         it('is changing content', function(done) {
-            loadFeed(0, (function(bool) {
+            loadFeed(1, (function(bool) {
                 var newData = $('.feed').html();
                 if(bool === true && data != newData) {
                     data = newData;
